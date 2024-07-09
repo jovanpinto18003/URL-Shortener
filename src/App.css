@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="url"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #ff6b6b;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.result a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.result a:hover {
+  text-decoration: underline;
+}
